@@ -120,3 +120,83 @@ nav ul li .btn{
     border-style: ridge;
     /* gap: 8px; */
 }
+
+#note{
+    display: flex;
+    width: 1620px;
+    height: 448px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+#note h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 16px;
+}
+
+#note p{
+    font-size: 16px;
+    color: #627382;
+    text-align: center;
+    padding-bottom: 44px;
+}
+
+.cards{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding-left: 120px;
+    
+}
+.cards img{
+    padding-bottom: 16px;
+    background-color: #F95555;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    /* object-fit: cover; */
+}
+.cards h3{
+    padding-bottom: 16px;
+    color: #001931;
+}
+.card-1{
+    width: 322px;
+    height: 320px;
+    text-align: center;
+    color: #627382;
+    box-shadow: #FFFFFF;
+    /* background-color:blueviolet; */
+    padding: 24px;
+}
+.card-2{
+    width: 322px;
+    height: 320px;
+    text-align: center;
+    color: #627382;
+    /* background-color:blueviolet; */
+    padding: 24px;
+}
+.card-3{
+    width: 322px;
+    height: 320px;
+    text-align: center;
+    color: #627382;
+    /* background-color:transparent; */
+    padding: 24px;
+}
+.card-4{
+    width: 322px;
+    height: 320px;
+    text-align: center;
+    color: #627382;
+    /* background-color:blueviolet; */
+    padding: 24px;
+}
