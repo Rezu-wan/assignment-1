@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: semi-bold;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1620px;
+    height: 92px;
+
+}
+
+nav .logo{
+    width: 139px;
+    height: 60px;
+    /* background-color: red; */
+    padding-left: 120px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    /* margin-right: 629px; */
+    margin-left: 420px;
+    margin-top: 34px;
+    gap: 32px;
+    font-size: 16px;
+    
+}
+
+nav ul li .btn{
+    width: 164px;
+    height: 44px;
+    /* border-radius: 4px; */
+    background-color: #30B868;
+    font-size: 16px;
+    font-weight: semi-bold;
+    /* color: white; */
+    margin-right: 120px;
+    margin-left: 345px;
+    /* text-align: center; */
+    /* cursor: pointer; */
+}
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    /* background-position: center; */
+}
+#hero{
+    width: 1620px;
+    height: 748px;
+    /* background-color: blue; */
+}
+
+#hero h1{
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    padding-top: 190px;
+    padding-bottom: 16px;
+}
+#hero .clr{
+    color: #30B868;
+}
+#hero p{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+#hero .button{
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+    margin-bottom: 179px;
+}
+#hero .btn-1 img{
+    height: 18px;
+    width: 18px;
+}
+.btn-1{
+    width: 251px;
+    height: 52px;
+    /* text-align: center; */
+    background-color: #30B868;
+    /* border-style: none; */
+    /* gap: 8px; */
+}
+
+#hero .btn-2 img{
+    height: 18px;
+    width: 18px;
+}
+.btn-2{
+    width: 198px;
+    height: 52px;
+    /* text-align: center; */
+    background-color: transparent;
+    border-style: ridge;
+    /* gap: 8px; */
+}
