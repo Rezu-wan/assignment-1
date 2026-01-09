@@ -12,6 +12,7 @@ button{
     font-size: 16px;
     font-weight: semi-bold;
     color: white;
+    background-color: #30B868;
 }
 nav{
     display: flex;
@@ -65,12 +66,11 @@ nav ul li .btn{
     align-items: center;
     background-image: url(./assets/hero-bg.png);
     background-size: cover;
-    /* background-position: center; */
+    background-repeat: no-repeat;
 }
 #hero{
     width: 1620px;
     height: 748px;
-    /* background-color: blue; */
 }
 
 #hero h1{
@@ -103,7 +103,7 @@ nav ul li .btn{
     width: 251px;
     height: 52px;
     /* text-align: center; */
-    background-color: #30B868;
+    /* background-color: #30B868; */
     /* border-style: none; */
     /* gap: 8px; */
 }
@@ -154,8 +154,6 @@ nav ul li .btn{
     width: 1360px;
     height: 251px;
     gap: 24px;
-    /* padding-left: 120px; */
-    /* background-color: #f0f0f0; */
     
 }
 .cards img{
@@ -237,7 +235,7 @@ nav ul li .btn{
     font-weight: 700;
     padding-bottom: 16px;
     text-align: left;
-   
+    
 }
 
 #brain .content p{
@@ -263,3 +261,47 @@ nav ul li .btn{
     font-size: 16px;
     font-weight: 600;
 }
+
+#early-access{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1620px;
+    height: 507px;
+    padding: 0 120px 120px 120px;
+    font-size: 40px;
+    color: #001931;
+    font-weight: 700;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+#early-access .titel{
+    width: 1360px;
+    height: 385px;
+    border-radius: 8px;
+    padding: 80px;
+    background-color: #F7F6F2;
+}
+
+#early-access p{
+    font-size: 16px;
+    color: #627382;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+#early-access .ea{
+    width: 194px;
+     height: 52px; 
+}
+
+#early-access .p1{
+    font-size: 16px;
+    color: #627382;
+    padding-top: 16px;
+    padding-bottom: 24px;
+     text-align: center;
+    padding-bottom: 80px; 
+ }
