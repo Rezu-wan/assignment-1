@@ -309,3 +309,57 @@ nav ul li .btn{
      text-align: center;
     padding-bottom: 80px; 
  }
+
+ #footer-section{
+    width: 1620px;
+    height: 348px;
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+ }
+
+ /* .foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+ } */
+
+.f-logo{
+    width: 139px;
+    height: 60px;
+    /* background-color: red; */
+    /* padding-bottom: 16px; */
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.social p{
+    
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.social ul{
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    padding: 0;
+    margin: 0;
+}
+.social ul li img{
+    width: 20px;
+    height: 20px;
+}
+ .text{
+  margin-top: 60px;
+  padding-top: 15px;
+  border-top: 1px solid #FAFAFA;
+    color: #FAFAFA;
+  text-align: center;
+  font-size: 16px;
+ }
+  
