@@ -102,10 +102,9 @@ nav ul li .btn{
 .btn-1{
     width: 251px;
     height: 52px;
-    /* text-align: center; */
-    /* background-color: #30B868; */
-    /* border-style: none; */
-    /* gap: 8px; */
+    padding: 14px 24px;
+    display: inline-flex;
+    align-items: center;
 }
 
 #hero .btn-2 img{
@@ -115,10 +114,11 @@ nav ul li .btn{
 .btn-2{
     width: 198px;
     height: 52px;
-    /* text-align: center; */
+    padding: 14px 24px;
+    display: inline-flex;
+    align-items: center;
     background-color: transparent;
     border-style: ridge;
-    /* gap: 8px; */
 }
 
 #note{
@@ -294,7 +294,11 @@ nav ul li .btn{
 }
 #early-access .ea{
     width: 194px;
-     height: 52px; 
+    height: 52px; 
+    padding: 14px 24px;
+    display: inline-flex;
+    align-items: center;
+     
 }
 
 #early-access .p1{
